@@ -22,7 +22,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="mainNavbar">
-                <ul class="nav nav-pills navbar-nav navbar-right">
+                <ul class="nav nav-pills nav-stacked navbar-nav navbar-right pull-right">
                     <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="#bio">Bio</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -38,6 +38,61 @@
         </div>
     </div>
 
+    <!-- Bio -->
+    <div id="bio" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-xs-offset-1">
+                <h1>Bio</h1>
+            </div>
+            <div class="col-sm-5 col-xs-offset-1 pull-right">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Interests
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                              Design, minimalism, organic forms
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Coding Experience
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                              Html and CSS with Mobile Compatibility
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Life Info
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                              Lives in Fresno, California; works in health insurance and health tech innovations
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project Section -->
 
     <!-- Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
