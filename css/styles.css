@@ -46,7 +46,7 @@ nav.navbar {
 
 .jumbotron {
     width: 100%;
-    height: 600px;
+    height: 710px;
     background-size: cover;
     background-position: center;
     background-image: url(../img/jumbotron-portfolio.png)
@@ -69,7 +69,7 @@ nav.navbar {
     background-image: url(../img/transparent-wolf-2.png);
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 710px;
     margin-top: -30px;
 }
 
